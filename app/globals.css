@@ -162,6 +162,29 @@ footer span {
   color: var(--amber);
 }
 
+.work-links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.work-links a {
+  color: var(--cobalt);
+  text-decoration: none;
+}
+
+.work-links a:hover {
+  text-decoration: underline;
+}
+
+.work-links .divider {
+  color: var(--panel-edge);
+}
+
 @media (prefers-reduced-motion: reduce) {
   .pulse {
     animation: none;
