@@ -93,6 +93,23 @@ export default function Home() {
 
       <footer>
         Created for <span>Lutfiya Rawat</span>
+        <div className="work-links">
+          <a
+            href="https://lutfiyarawat.github.io/lulus-web-studio"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LULUS Web Studio
+          </a>
+          <span className="divider">&middot;</span>
+          <a
+            href="https://lutfiyarawat.github.io/lulus-dose-of-beauty"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Lulu's Dose of Beauty
+          </a>
+        </div>
       </footer>
     </div>
   );
